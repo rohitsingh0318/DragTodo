@@ -1,12 +1,95 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 DragTodo
 
-Currently, two official plugins are available:
+A modern **Drag & Drop To-Do List App** built with **React + Vite**.  
+Easily add, delete, check, and reorder tasks with a smooth drag-and-drop interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- ✅ Add new tasks  
+- 🗑️ Delete tasks  
+- ✔️ Mark tasks as complete (checkbox)  
+- ↕️ Drag and drop to reorder tasks  
+- 🎨 Responsive design (works on mobile & desktop)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- **React.js (Vite)**
+- **@dnd-kit/core** (for drag & drop)
+- **CSS3 / Media Queries**
+
+---
+
+## 📸 Screenshots
+![App Preview](./screenshot.png)  
+*(Add your own screenshot here)*
+
+---
+## 📂 Project Structure
+```
+DragTodo/
+├── public/ # Static assets
+│ └── vite.svg
+├── src/ # Main source code
+│ ├── components/ # Reusable UI components
+│ │ ├── Coloum.jsx # Column component (renders tasks)
+│ │ ├── Task.jsx # Individual task (checkbox, delete, drag)
+│ │ └── Input.jsx # Input field for adding new tasks
+│ ├── App.jsx # Root component (manages state & drag-drop logic)
+│ ├── App.css # Main styles
+│ └── main.jsx # React DOM render entry point
+├── .gitignore # Ignored files
+├── index.html # Main HTML file
+├── package.json # Dependencies & scripts
+├── README.md # Project documentation
+└── vite.config.js # Vite configuration
+```
+
+## ⚡ Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/rohitsingh83/DragTodo.git
+   cd DragTodo
+````
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production
+
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🌐 Live Demo
+
+👉 [DragTodo on GitHub Pages](https://xyz.github.io/DragTodo)
+*(After you deploy, update this link)*
+
+---
+
+## 👨‍💻 Author
+
+Developed with ❤️ by **Rohit Singh**
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+Feel free to use and modify!
+```
