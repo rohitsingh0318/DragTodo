@@ -73,23 +73,13 @@ DragTodo/
    npm run build
    ```
 
----
-
 ## 🌐 Live Demo
 
 👉 [DragTodo on GitHub Pages](https://xyz.github.io/DragTodo)
 *(After you deploy, update this link)*
 
----
 
-## 👨‍💻 Author
+
+**👨‍💻 Author**
 
 Developed with ❤️ by **Rohit Singh**
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-Feel free to use and modify!
-```
