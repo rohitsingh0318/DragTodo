@@ -23,9 +23,7 @@ Easily add, delete, check, and reorder tasks with a smooth drag-and-drop interfa
 ---
 
 ## 📸 Screenshots
-![App Preview](./screenshot.png)  
-*(Add your own screenshot here)*
-
+[App Preview]  <img width="1784" height="916" alt="Screenshot 2025-08-28 210932" src="https://github.com/user-attachments/assets/8332327f-6f85-4e8d-8c6a-2268f45b1d2f" />
 ---
 ## 📂 Project Structure
 ```
