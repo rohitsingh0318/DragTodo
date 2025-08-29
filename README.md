@@ -73,7 +73,7 @@ DragTodo/
 
 ## 🌐 Live Demo
 
-👉 [DragTodo on GitHub Pages](https://xyz.github.io/DragTodo)
+👉 [DragTodo on GitHub Pages](https://drag-todo-six.vercel.app/)
 *(After you deploy, update this link)*
 
 
